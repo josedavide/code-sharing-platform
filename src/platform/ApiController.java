@@ -1,10 +1,10 @@
 package platform;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -25,8 +25,19 @@ public class ApiController {
 
     @GetMapping()
     public Snippet getCode() {
-        return codeService.getCode();
+        return codeService.getSnippedCode();
     }
+
+    @PostMapping("/new")
+    public ResponseEntity postCode(@RequestBody Snippet snippet) {
+        codeService.updateSnippetCode(snippet.getCode());
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json");
+        //new ResponseEntity()
+        return new ResponseEntity("{}", headers, HttpStatus.OK);
+    }
+
+
 
 
 }
