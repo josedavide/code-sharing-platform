@@ -9,20 +9,20 @@
 4[0m[0;34m =========|_|==============|___/=/_/_/_/
 6[0m[0;34m :: Spring Boot ::                (v2.5.6)
 [0m[0;34m
-Ω[0m[0;34m2022-11-04 22:31:35.725  INFO 58580 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.4.1 on MacBook-Pro-de-Jose.local with PID 58580 (started by jose in /Users/jose/Code/Courses/JetBrainsAcademy/Code Sharing Platform/Code Sharing Platform/task)
-±[0m[0;34m2022-11-04 22:31:35.728  INFO 58580 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
-ù[0m[0;34m2022-11-04 22:31:37.199  INFO 58580 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-ä[0m[0;34m2022-11-04 22:31:37.213  INFO 58580 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-†[0m[0;34m2022-11-04 22:31:37.213  INFO 58580 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
-£[0m[0;34m2022-11-04 22:31:37.306  INFO 58580 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-∞[0m[0;34m2022-11-04 22:31:37.307  INFO 58580 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
-≠[0m[0;34m2022-11-04 22:31:37.777  INFO 58580 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-¶[0m[0;34m2022-11-04 22:31:38.105  INFO 58580 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
-¨[0m[0;34m2022-11-04 22:31:38.143  INFO 58580 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-µ[0m[0;34m2022-11-04 22:31:38.158  INFO 58580 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 7.831 seconds (JVM running for 8.717)
-¶[0;34m2022-11-04 22:31:38.571  INFO 58580 --- [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-ô[0m[0;34m2022-11-04 22:31:38.571  INFO 58580 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-ë[0m[0;34m2022-11-04 22:31:38.573  INFO 58580 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Ω[0m[0;34m2022-11-04 22:35:51.901  INFO 58736 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.4.1 on MacBook-Pro-de-Jose.local with PID 58736 (started by jose in /Users/jose/Code/Courses/JetBrainsAcademy/Code Sharing Platform/Code Sharing Platform/task)
+±[0m[0;34m2022-11-04 22:35:51.904  INFO 58736 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+ù[0m[0;34m2022-11-04 22:35:53.238  INFO 58736 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+ä[0m[0;34m2022-11-04 22:35:53.251  INFO 58736 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+†[0m[0;34m2022-11-04 22:35:53.252  INFO 58736 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+£[0m[0;34m2022-11-04 22:35:53.341  INFO 58736 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+∞[0m[0;34m2022-11-04 22:35:53.341  INFO 58736 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1385 ms
+≠[0m[0;34m2022-11-04 22:35:53.774  INFO 58736 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+¶[0m[0;34m2022-11-04 22:35:54.074  INFO 58736 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¨[0m[0;34m2022-11-04 22:35:54.111  INFO 58736 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+µ[0m[0;34m2022-11-04 22:35:54.125  INFO 58736 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 7.597 seconds (JVM running for 8.542)
+¶[0;34m2022-11-04 22:35:54.521  INFO 58736 --- [nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ô[0m[0;34m2022-11-04 22:35:54.521  INFO 58736 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ë[0m[0;34m2022-11-04 22:35:54.523  INFO 58736 --- [nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 [0m[1;31m
 Start test 2[0m
 [1;31m

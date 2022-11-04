@@ -4,7 +4,6 @@ import lombok.Getter;
 import org.springframework.stereotype.Repository;
 
 @Repository
-//@Component
 public class CodeRepository {
     @Getter
     private Snippet snippet;
